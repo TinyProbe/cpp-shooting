@@ -1,0 +1,2 @@
+# cpp-shooting
+shooting game.
