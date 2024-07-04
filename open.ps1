@@ -10,4 +10,4 @@ for ($i = 0; $i -lt $inc_files.length; ++$i) {
 $files = $files -replace "C:\\Users\\137ad\\Projects\\desktop\\shooting\\", ""
 $files = $files -split " "
 
-nvim inc/tetris.h src/tetris.cc $files[0..($files.length - 2)]
+nvim inc/shooting.h src/shooting.cc $files[0..($files.length - 2)]
